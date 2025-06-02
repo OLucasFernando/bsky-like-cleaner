@@ -7,6 +7,27 @@ Remove **curtidas em massa** do seu perfil no Bluesky (BSky) de forma segura, co
 
 ---
 
+
+⚡ How to Use
+Option 1: Manual Upload (For Non-Programmers)
+Download the files:
+
+cleaner.py
+requirements.txt
+Place them in a folder (e.g., C:\bsky_cleaner).
+
+Open PowerShell in that directory and run:
+
+PowerShell
+
+pip install -r requirements.txt
+python cleaner.py
+
+## 🛡️Protection Against Bans 
+- Randomization of time between actions 
+- Automatic pause when reaching 90% of the hourly limit 
+- Real-time counter
+
 ## ⚡ **Como Usar**  
 
 ### **Opção 1: Upload Manual (Para Não-Programadores)**  
@@ -26,23 +47,3 @@ Remove **curtidas em massa** do seu perfil no Bluesky (BSky) de forma segura, co
 - Pausa automática ao atingir 90% do limite horário  
 - Contador de tempo real  
 Safely remove bulk likes from your Bluesky (BSky) profile with an hourly rate limit.
-
-⚡ How to Use
-Option 1: Manual Upload (For Non-Programmers)
-Download the files:
-
-cleaner.py
-requirements.txt
-Place them in a folder (e.g., C:\bsky_cleaner).
-
-Open PowerShell in that directory and run:
-
-PowerShell
-
-pip install -r requirements.txt
-python cleaner.py
-
-## 🛡️ Proteções Contra Bans  
-- Randomização de tempo entre ações  
-- Pausa automática ao atingir 90% do limite horário  
-- Contador de tempo real  
