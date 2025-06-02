@@ -20,6 +20,11 @@ Remove **curtidas em massa** do seu perfil no Bluesky (BSky) de forma segura, co
    python cleaner.py
 
     Bluesky Like Cleaner
+
+   ## 🛡️ Proteções Contra Bans  
+- Randomização de tempo entre ações  
+- Pausa automática ao atingir 90% do limite horário  
+- Contador de tempo real  
 Safely remove bulk likes from your Bluesky (BSky) profile with an hourly rate limit.
 
 ⚡ How to Use
@@ -36,3 +41,8 @@ PowerShell
 
 pip install -r requirements.txt
 python cleaner.py
+
+## 🛡️ Proteções Contra Bans  
+- Randomização de tempo entre ações  
+- Pausa automática ao atingir 90% do limite horário  
+- Contador de tempo real  
