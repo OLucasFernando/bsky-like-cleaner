@@ -47,3 +47,5 @@ python cleaner.py
 - Automatic pause when reaching 90% of the hourly limit 
 - Real-time counter
 
+  ![Demo](assets/demo.gif)
+
